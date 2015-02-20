@@ -1,0 +1,27 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<polymer-element name="login-form" attributes="email email_placeholder password password_min_length handler failed">
+    <template>
+    	<link rel="stylesheet" href="css/login-form.css">
+    	<form id="form" method="post" >
+    		<fieldset>
+    			<div id="msg"></div>
+    		</fieldset>
+		    <fieldset name="email">
+		      <label for="email">Email</label>
+		      <input type="email" name="email" id="email" placeholder="{{email_placeholder}}" value="{{email}}">
+		      <div class="status" id="email_status"></div>
+		    </fieldset>
+
+		   	<fieldset name="password">
+		      <label for="password">Password</label>
+		      <input type="password" name="password"  id="password">
+		      <div class="status" id="password_status"></div>
+		    </fieldset>
+		 
+		    <fieldset>
+		    	<input type="submit" id="submit" value="Connect">
+			</fieldset>
+		</form>
+    </template>
+    <script type="text/javascript" src="js/login-form.js"></script>
+</polymer-element>
