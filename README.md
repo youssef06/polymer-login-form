@@ -7,6 +7,8 @@ Simple Polymer Login form that provides the following features:
   - Email is automatically validated.
   - If "failed" attribute is passed with the value "true", an error message is displayed.
 
+### Examples:
+
 ```html
 <login-form email_placeholder="email@site.com"></login-form>
 <login-form email="youssef@gmail.com"></login-form>
