@@ -50,7 +50,7 @@ form fieldset input[type='email'], form fieldset input[type='password'] {
 }
 
 form fieldset input[type="submit"] {
-	background-color: rgb(148, 201, 243);
+	background-color: rgb(93, 172, 242);
 	padding: 10px;
 	text-align: center;
 	border-radius: 5px;
