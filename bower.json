@@ -1,0 +1,20 @@
+{
+  "name": "login-form",
+  "version": "0.1.1",
+  "description": "Polymer Login element",
+  "authors": [
+    "Ybenz11"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "license": "MIT",
+  "main": "login-form/login-form.html",
+  "keywords": [
+    "Polymer",
+    "web-components"
+  ],
+  "devDependencies": {
+    "polymer": "Polymer/polymer#~0.5.5"
+  }
+}
